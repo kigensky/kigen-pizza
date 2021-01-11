@@ -36,7 +36,7 @@ h5 {
 }
 nav .navbar{
   width: 99%;
-  padding-right: 0px;
+  padding-right: 10px;
 }
 .navbar-brand{
   margin-right: 30%;
@@ -178,7 +178,7 @@ td,th{
   text-align: left;
 }
 .footer{
-  padding-top: 5%;
+  padding-top: 0%;
 }
 #addedprice{
   display: none;
