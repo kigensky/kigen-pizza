@@ -32,6 +32,7 @@ h5 {
 }
 #head{
   padding-top: 10%;
+  
 }
 nav .navbar{
   width: 99%;
@@ -42,12 +43,13 @@ nav .navbar{
   font-weight:800;
 }
 .nav-item a{
+  /* padding-right: 50px; */
   font-size: 20px;
   font-weight: 700;
 }
 
 .landing{
-  background-image: url("../images/largepizza.jpg");
+  background-image: url("../images/slider2.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,7 +71,7 @@ nav .navbar{
 }
 .card-title{
   text-align: center;
-  color: #008000;
+  color: green;
   font-weight: 800;
 }
 .controls-top h2{
@@ -81,26 +83,6 @@ nav .navbar{
 .col-md-4{
   border-radius: 10%;
   padding: 10px;
-}
-#about-us{
-  min-height: 70vh;
-  align-items: center;
-
-  }
-.about-pic {
-  background-color: #ffa500;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 0px;
-}
-#about-us .content{
-  padding: 65px 50px 85px;
-  width: 100%;
-  background-color: #ffa500;
-  float:right;
-  text-align: justify;
-  overflow-x: hidden;
 }
 .d-flex{
   display: flex !important;
@@ -132,12 +114,20 @@ nav .navbar{
 .order h2{
   text-align: center;
 }
-#variety{
-  padding-top: 30px;
+#menu {
+  padding-top: 20px;
 }
+
+
+.menu {
+  margin-top: 30px;
+  background-image: url("../images/wooden.jpg");
+  padding: 0;
+}
+
 .order{
   background-attachment: fixed;
-  background-image: url("../images/slider2.jpg");
+  background-image: url("../images/largepizza.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -222,12 +212,6 @@ td,th{
 }
 .flex-xs-column {
     flex-direction: column;
-}
-#about-us .content {
-  padding: 20px 30px 40px;
-}
-.about-pic img{
-  width: 94%;
 }
 .order-overlay{
   background-color: rgba(0, 0, 0,0.5);
