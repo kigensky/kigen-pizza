@@ -125,6 +125,8 @@ h5 {
   margin-top: 30px;
   background-image: url("../images/wooden.jpg");
   padding: 0;
+
+  
 }
 
 .order{
@@ -174,7 +176,8 @@ td,th{
   text-align: center;
 }
 #contact{
-  color: black;
+  color: rgb(252, 249, 249);
+  background-image: url("../images//contact-opus-background-11.jpg");
 }
 #contactdetails h2{
   text-align: left;
